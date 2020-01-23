@@ -52,9 +52,9 @@
 /* 52 */             mc.player.connection.sendPacket((Packet)new CPacketChatMessage("Oh hey, there is " + playerName + " in my range! This announcement was presented by: " + "\u00A72\u0262\u029F\u1D0F\u1D0F\u1D0D \u1D04\u029F\u026A\u1D07\u0274\u1D1B"));
 /*    */           }
 /* 54 */           else if (Friends.isFriend(playerName)) {
-/* 55 */             sendNotification("[VisualRange] " + ChatFormatting.GREEN.toString() + playerName + ChatFormatting.RESET.toString() + " entered the Battlefield!");
+/* 55 */             sendNotification("WOW " + ChatFormatting.GREEN.toString() + playerName + ChatFormatting.RESET.toString() + " Entered your visual range thanks to Osiris!");
 /*    */           } else {
-/* 57 */             sendNotification("[VisualRange] " + ChatFormatting.RED.toString() + playerName + ChatFormatting.RESET.toString() + " entered the Battlefield!");
+/* 57 */             sendNotification("WOW " + ChatFormatting.RED.toString() + playerName + ChatFormatting.RESET.toString() + " Entered your visual range thanks to Osiris!");
 /*    */           } 
 /*    */           
 /*    */           return;
